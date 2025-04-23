@@ -7,16 +7,16 @@ load_dotenv()
 api_id = int(getenv("api_id", None))
 api_hash = getenv("api_hash", None)
 session = getenv("session", None)
-bot_token = getenv("bot_token", None)
+bot_token = getenv("bot_token", "7785094383:AAFNPRy6SeJcDFArAAS2161C42IMIQOA56E")
 db_name = getenv("db_name", None)
 mongo_uri = getenv("mongo_uri", None)
 def_bahasa = getenv("def_bahasa", "toxic")
-log_pic = getenv("log_pic", "https://telegra.ph//file/43cec0ae0ded594b55247.jpg")
+log_pic = getenv("log_pic", "https://files.catbox.moe/pcrvfl.jpg")
 heroku_api = getenv("heroku_api")
 heroku_app_name = getenv("heroku_app_name")
 upstream_repo = getenv(
     "upstream_repo",
-    "https://github.com/naya1503/Mix-Userbot",
+    "https://github.com/lusiap/Mix-Userbot",
 )
 upstream_branch = getenv("upstream_branch", "final")
 git_token = getenv("git_token", None)
